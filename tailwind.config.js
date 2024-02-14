@@ -2,7 +2,13 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                brunswick_green: "#01464F",
+                pizazz: "#BEC624",
+                darthmouth_green: "#016A54",
+            },
+        },
     },
     plugins: [],
 };
